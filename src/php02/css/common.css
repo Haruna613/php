@@ -1,0 +1,50 @@
+body {
+    max-width: 1230px;
+}
+
+/* header */
+
+#header {
+    background: #000;
+}
+
+#header .inner {
+    margin: 0 auto;
+    padding: 20px 100px;
+}
+
+#header .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* main */
+
+#main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main .title {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#main .contents .form {
+    display: flex;
+    justify-content: center;
+}
+
+#main .contents .item-select {
+    width: 200px;
+    height: 24px;
+}
+
+#main .contents .button-submit {
+    background-color: #000;
+    color: #fff;
+    width: 80px;
+}

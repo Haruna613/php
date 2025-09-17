@@ -1,0 +1,65 @@
+body{
+    max-width: 1230px;;
+}
+
+/* header */
+
+#header{
+    background-color: #000;
+}
+
+#header .inner{
+    margin: 0 auto;
+    padding: 20px 100px;
+}
+
+#header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main */
+
+#main .contents{
+    padding: 60px 15px;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+#main .result{
+    display: flex;
+    justify-content: center;
+}
+
+#main .result-card{
+    margin: 0 20px;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15)
+}
+
+#main .result-card__img{
+    position: relative;
+    padding-top: 56.25%;
+}
+
+#main .result-card__img--city{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#main .result-card__body{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#main .result-card__city, .result-card__time{
+    margin: 0;
+    font-size: 18px;
+}
